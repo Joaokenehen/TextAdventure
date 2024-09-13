@@ -44,6 +44,7 @@ create table combinar (
     item1_id int,
     item2_id int,
     descricao_combinacao varchar(100),
+	foreing key (item1_id) referecences itens (id_item)
     -- item1 e item2 são foreing key
 );
 
